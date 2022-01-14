@@ -5,7 +5,8 @@
   "main": "src/app.ts",
   "scripts": {
     "antlr4ts": "antlr4ts -visitor src/antlr/Hlang.g4",
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon src/app.ts",
+    "visitor": "nodemon designPatterns/visitor/index.ts"
   },
   "repository": {
     "type": "git",
